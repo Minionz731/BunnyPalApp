@@ -1,22 +1,23 @@
 package com.example.bunnypal
 
+//importing necessary Android classes and components
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {  //defining the mainActivity class which extends AppCompatAct
 
-    private lateinit var bunnyImage: ImageView
+    private lateinit var bunnyImage: ImageView //declare private lateinit for imageview
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome)
+        setContentView(R.layout.activity_welcome) // set layout for the first page- activity_welcome
 
-        val startGameButton = findViewById<Button>(R.id.startGameButton)
+        val startGameButton = findViewById<Button>(R.id.startGameButton) //set a click listener for the game start button
         startGameButton.setOnClickListener {
-            setContentView(R.layout.activity_main)
+            setContentView(R.layout.activity_main) //change to second page- activity_main
             initializeViews()
         }
     }
