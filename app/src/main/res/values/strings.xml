@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BunnyApp</string>
+    <string name="bunny_image_description">Image of the bunny</string>
+    <string name="feed_toast">You fed the bunny!</string>
+    <string name="clean_toast">You cleaned the bunny!</string>
+    <string name="play_toast">You played with the bunny!</string>
+    <string name="sleep_toast">You put the bunny to sleep!</string>
+    <string name="button_feed">Feed</string>
+    <string name="button_clean">Clean</string>
+    <string name="button_play">Play</string>
+    <string name="button_sleep">Sleep</string>
+    <string name="button_start_game">Start Game</string>
+    <string name="welcome_message">Welcome to BunnyPal! Click the button below to start taking care of your virtual pet.</string>
+</resources>
